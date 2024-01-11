@@ -9,11 +9,11 @@ import NavBar from '@/components/NavBar.vue';
             <div class="flex justify-end">
                 <NavBar />
             </div>
-            <div class="flex flex-col  ">
-                <p class="font-bold text-7xl ">
+            <div class="w-[600px] mt-72 ml-72 text-center gap-y-12 ">
+                <p class="font-bold text-[86px] mb-12">
                     ლეონარდოს ფუნჯი
                 </p>
-                <span class="text-center">ხელოვნება არასოდეს მთავრდება</span>
+                <span class="text-center text-2xl ">ხელოვნება არასოდეს მთავრდება</span>
             </div>
         </div>
 
