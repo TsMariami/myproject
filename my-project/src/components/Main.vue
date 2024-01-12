@@ -4,7 +4,10 @@ import NavBar from '@/components/NavBar.vue';
 </script>
 <template>
     <div class="flex flex-row">
-        <img src="../assets/imgs/homePageImgs/image 2.png" alt="">
+        <div>
+                    <img src="../assets/imgs/homePageImgs/image 2.png" alt="">
+
+        </div>
         <div>
             <div class="flex justify-end">
                 <NavBar />

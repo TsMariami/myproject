@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 const Class = ref(' focus:font-medium block py-2 px-3 text-black md:border-0 md:hover:font-medium md:p-0 ')
 const NavBar = ref([
-  { name: "მთვარი", class: Class, route: '/' },
+  { name: "მთავარი", class: Class, route: '/' },
   { name: "გალერეა", class: Class, route: '/signup' },
   { name: "მხატვრის შესახებ", class: Class, route: '/signup' },
   { name: "კონტაქტი", class: Class, route: '/signup' },
@@ -23,13 +23,14 @@ const NavBar = ref([
       </button>
       <div class="hidden w-full md:block md:w-auto " id="navbar-default">
         <ul
-          class=" text-2xl font-light flex flex-col mx-4 md:p-0 mt-4 rounded-lg bg-gray-50  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          class=" text-3xl font-normal flex flex-col mx-4 md:p-0 mt-4 rounded-lg bg-gray-50  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li v-for="item in NavBar" :key="item.index">
             <a href="#" :class="item.class">{{ item.name }}</a>
           </li>
         </ul>
+<img src="../assets/imgs/homePageImgs/full-width.png" alt="" class="w-[780px] ml-4 mt-4 ">
+
       </div>
     </div>
-    <img src="../assets/imgs/homePageImgs/full-width.png" alt="" class="w-[600px] ml-8">
   </nav>
 </template>
