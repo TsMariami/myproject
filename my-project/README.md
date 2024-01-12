@@ -24,6 +24,6 @@ npm run dev
 
 ### Compile and Minify for Production
 
-```shh
+```sh
 npm run build
 ```
